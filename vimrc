@@ -109,7 +109,7 @@ endif
 if count(g:vimified_packages, 'fancy')
     call Check_defined('g:airline_left_sep', '')
     call Check_defined('g:airline_right_sep', '')
-    call Check_defined('g:airline_branch_prefix', '')
+    "call Check_defined('g:airline_symbols.branch', '')
 
     Bundle 'bling/vim-airline'
 endif
